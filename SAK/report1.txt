@@ -1,0 +1,23 @@
+/app/app.js:32:51 Replaced  ||  with && -> SURVIVED
+/app/app.js:31:88 Replaced  ||  with && -> SURVIVED
+/app/app.js:31:63 Replaced  ||  with && -> SURVIVED
+/app/app.js:31:38 Replaced  ||  with && -> SURVIVED
+/app/app.js:33:17 Removed return false; -> SURVIVED
+/app/app.js:33:24 Replaced false with true -> SURVIVED
+/app/app.js:36:25 Replaced  >  with >= -> SURVIVED
+/app/app.js:36:45 Replaced  -  with + -> SURVIVED
+/app/app.js:36:49 Replaced  *  with / -> SURVIVED
+/app/app.js:37:25 Replaced  >  with >= -> SURVIVED
+/app/app.js:37:28 Replaced 0 with 1 -> SURVIVED
+/app/app.js:40:30 Replaced  <  with <= -> SURVIVED
+/app/app.js:40:30 Replaced  <  with >= -> SURVIVED
+/app/app.js:40:33 Replaced 0 with 1 -> SURVIVED
+/app/app.js:41:21 Removed return {area: area, message: messageError}; -> SURVIVED
+/app/app.js:41:29 Removed area: area,  -> SURVIVED
+/app/app.js:41:41 Removed message: messageError -> SURVIVED
+/app/app.js:44:21 Removed return {area: 0, message: 'Big null'}; -> SURVIVED
+/app/app.js:44:29 Removed area: 0,  -> SURVIVED
+/app/app.js:44:38 Removed message: 'Big null' -> SURVIVED
+/app/app.js:44:35 Replaced 0 with 1 -> SURVIVED
+/app/app.js:44:47 Replaced 'Big null' with "MUTATION!" -> SURVIVED
+28 of 50 unignored mutations are tested (56%). 3 mutations were ignored.
